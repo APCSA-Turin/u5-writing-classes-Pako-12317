@@ -9,6 +9,18 @@ public class Prism {
         hei = height; 
     }
 
+    public Prism(int val){
+        len = val;
+        wid = val;
+        hei = val;
+    }
+
+    public Prism(){
+        len = (int)((Math.random()*99)+1);
+        wid = (int)((Math.random()*99)+1);
+        hei = (int)((Math.random()*99)+1);
+    }
+
     public String dimensions(){
         return "Length = "+len+"\nWidth = "+wid+"\nHeight = "+hei;
     }
