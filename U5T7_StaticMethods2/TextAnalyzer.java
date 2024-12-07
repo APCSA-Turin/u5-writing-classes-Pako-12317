@@ -21,6 +21,7 @@ public class TextAnalyzer {
     }
 
     // Private helper method: Checks if the text has vowels
+    @SuppressWarnings("unused")
     private boolean hasVowels() {
         return getVowelCount() > 0; //C Calling another instance method
     }
